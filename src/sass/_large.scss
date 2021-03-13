@@ -1,0 +1,26 @@
+    @media(min-width: 992px) {
+        .nav {
+            &__item {
+                font-size: 2.8rem;
+                padding: 1rem;
+            }
+            &__link {
+                padding: 1.75rem 1.25rem;
+                height: 100%;
+                width: 100%;
+                color: black;
+            }
+        }
+        .main {
+            .hero {
+                background-image: url('../img/jungle_big.jpg');
+            }
+            .aboutus {
+                width: 75%;
+                margin-left: 10%;
+            }
+            .adventure {
+                background-image: url('../img/child_big.jpg');
+            }
+        }
+    }

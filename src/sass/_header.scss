@@ -1,0 +1,28 @@
+.header {
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+    height: 6.8rem;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+    &__heading {
+        font-size: 3.2rem;
+        font-weight: normal;
+        a {
+            color: rgb(53, 53, 53);
+            text-decoration: none;
+        }
+    }
+}
+
+@media(min-width: 750px) {
+    .header {
+        width: 50%;
+        padding: 1rem;
+        &__heading {
+            font-size: 4rem;
+        }
+    }
+}

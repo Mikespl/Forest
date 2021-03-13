@@ -1,0 +1,33 @@
+.nav {
+    position: fixed;
+    display: flex;
+    top: 6.8rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+    font-size: 3.2rem;
+    text-align: center;
+    transform: translateX(100%);
+    transition: transform .5s linear;
+    background-color: rgb(25, 25, 25);
+    z-index: 10;
+    &.active {
+        transform: translateX(0)
+    }
+    &__list {
+        list-style-type: none;
+    }
+    &__item {
+        padding: 4rem;
+    }
+    &__link {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        transition: color .3s linear, background-color .3s linear;
+        &:hover {
+            color: red;
+        }
+    }
+}

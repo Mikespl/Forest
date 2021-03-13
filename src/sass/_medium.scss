@@ -1,0 +1,70 @@
+@media(min-width: 768px) {
+    .nav {
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        height: 6.8rem;
+        width: 50%;
+        left: 50%;
+        background-color: #fff;
+        transform: translateX(0);
+        &__list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        &__item {
+            font-size: 2.4rem;
+            padding: 1rem;
+        }
+        &__link {
+            padding: 1.25rem .75rem;
+            height: 100%;
+            width: 100%;
+            color: black;
+            &:hover {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+    .burger {
+        display: none;
+    }
+    .heading {
+        font-size: 4.2rem;
+    }
+    .main {
+        .hero {
+            &__text {
+                h1 {
+                    font-size: 3.5rem;
+                }
+                h2 {
+                    font-size: 3.75rem;
+                }
+            }
+        }
+        .aboutus {
+            margin-bottom: 2.5rem;
+            &__main {
+                position: relative;
+                flex-direction: row;
+                align-items: flex-start;
+            }
+            &__img {
+                width: 40%;
+                margin-right: 2.6rem;
+            }
+        }
+        .adventure {
+            &__rectangle {
+                padding: 4.5rem 3.5rem;
+            }
+            &__heading {
+                font-size: 4.6rem;
+            }
+        }
+    }
+}

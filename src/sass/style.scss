@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6.8rem;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.heading {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3.6rem;
+    margin: 5rem 0;
+}
+
+@import 'header';
+@import 'burger';
+@import 'nav';
+@import 'main';
+@import 'footer';
+@import 'small';
+@import 'medium';
+@import 'large';
