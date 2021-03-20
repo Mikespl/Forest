@@ -1,5 +1,11 @@
     @media(min-width: 576px) {
         .main {
+            .aboutus {
+                &__img {
+                    width: 70%;
+                    padding: 0 1rem 1rem;
+                }
+            }
             .offers {
                 .cards {
                     flex-direction: row;

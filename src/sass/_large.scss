@@ -1,26 +1,60 @@
-    @media(min-width: 992px) {
-        .nav {
-            &__item {
-                font-size: 2.8rem;
-                padding: 1rem;
+@media(min-width: 992px) {
+    .nav {
+        &__item {
+            font-size: 2.8rem;
+            padding: 1rem;
+        }
+        &__link {
+            padding: 1.75rem 1.25rem;
+            height: 100%;
+            width: 100%;
+            color: black;
+        }
+    }
+    .main {
+        .hero {
+            background-image: url('../img/jungle_big.jpg');
+        }
+        .aboutus {
+            width: 75%;
+            margin-left: 10%;
+            &__img {
+                width: 45%;
             }
-            &__link {
-                padding: 1.75rem 1.25rem;
-                height: 100%;
-                width: 100%;
-                color: black;
+            &__heading {
+                font-size: 3.2rem;
+            }
+            &__paragraph {
+                line-height: 2.75rem;
+                font-size: 2rem;
             }
         }
-        .main {
-            .hero {
-                background-image: url('../img/jungle_big.jpg');
+        .adventure {
+            background-image: url('../img/child_big.jpg');
+        }
+    }
+}
+
+@media (min-width: 1500px) {
+    .main {
+        .hero {
+            &__text {
+                h1 {
+                    font-size: 4rem;
+                }
+                h2 {
+                    font-size: 4.5rem;
+                }
             }
-            .aboutus {
-                width: 75%;
-                margin-left: 10%;
+        }
+        .aboutus {
+            &__heading {
+                font-size: 3.6rem;
             }
-            .adventure {
-                background-image: url('../img/child_big.jpg');
+            &__paragraph {
+                line-height: 4.2rem;
+                font-size: 2.2rem;
             }
         }
     }
+}
