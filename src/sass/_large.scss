@@ -1,11 +1,11 @@
 @media(min-width: 992px) {
     .nav {
         &__item {
-            font-size: 2.8rem;
-            padding: 1rem;
+            font-size: 2.5rem;
+            width: 9.5vw;
         }
         &__link {
-            padding: 1.75rem 1.25rem;
+            // padding: 1.75rem 1.25rem;
             height: 100%;
             width: 100%;
             color: black;
@@ -36,7 +36,20 @@
     }
 }
 
+@media(min-width: 1080px) {
+    .nav {
+        &__item {
+            width: 8.5vw;
+        }
+    }
+}
+
 @media (min-width: 1500px) {
+    .nav {
+        &__item {
+            width: 6.5vw;
+        }
+    }
     .main {
         .hero {
             &__text {
@@ -56,6 +69,14 @@
                 line-height: 4.2rem;
                 font-size: 2.2rem;
             }
+        }
+    }
+}
+
+@media (min-width: 1800px) {
+    .nav {
+        &__item {
+            width: 5.5vw;
         }
     }
 }
