@@ -9,20 +9,13 @@
     background-color: #fff;
     &__heading {
         font-size: 3.2rem;
-        font-weight: normal;
+        font-weight: 300;
         a {
             color: rgb(53, 53, 53);
             text-decoration: none;
-        }
-    }
-}
-
-@media(min-width: 768px) {
-    .header {
-        width: 50%;
-        padding: 1rem;
-        &__heading {
-            font-size: 4rem;
+            img {
+                margin-bottom: -.75rem;
+            }
         }
     }
 }

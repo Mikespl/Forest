@@ -1,4 +1,16 @@
 @media(min-width: 768px) {
+    .header {
+        width: 50%;
+        padding: 1rem;
+        &__heading {
+            font-size: 4rem;
+            a {
+                img {
+                    margin-bottom: -.5rem;
+                }
+            }
+        }
+    }
     .nav {
         justify-content: center;
         align-items: center;
