@@ -44,6 +44,23 @@
     }
 }
 
+@media (min-width: 1250px) {
+    .footer {
+        &__main {
+            flex-direction: row;
+        }
+        &__heading {
+            margin: 4rem 10rem;
+            h4 {
+                font-size: 4.5rem;
+            }
+        }
+        &__content {
+            margin: 4rem 10rem;
+        }
+    }
+}
+
 @media (min-width: 1500px) {
     .nav {
         &__item {

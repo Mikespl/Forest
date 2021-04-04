@@ -18,9 +18,10 @@
         height: 6.8rem;
         width: 50%;
         left: 50%;
+        padding: 0;
         background-color: #fff;
         transform: translateX(0);
-        padding: 0;
+        transition: none;
         overflow: hidden;
         &__list {
             display: flex;
@@ -94,6 +95,11 @@
             &__heading {
                 font-size: 4.6rem;
             }
+        }
+    }
+    .footer {
+        &__content {
+            flex-direction: row;
         }
     }
 }

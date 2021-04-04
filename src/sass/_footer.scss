@@ -1,10 +1,51 @@
 .footer {
-    background-color: darken(white, 7.5%);
+    background-color: darken(white, 5%);
     &__paragraph {
         padding: 2rem 0;
         text-align: center;
         font-size: 1.8rem;
         font-weight: 300;
         border-top: 1px solid black;
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+    &__heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+        h4 {
+            font-size: 4rem;
+            padding-top: .5rem;
+            margin-left: .75rem;
+            font-weight: 300;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+    &__links {
+        margin: 2rem 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    &__heading-link {
+        margin-bottom: 1rem;
+        font-size: 2.5rem;
+    }
+    &__link {
+        margin: 1rem 0;
+        color: rgb(82, 81, 81);
+        text-decoration: none;
+        transition: color .2s;
+        &:hover {
+            color: rgb(0, 161, 0);
+        }
     }
 }
