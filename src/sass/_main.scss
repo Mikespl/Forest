@@ -12,6 +12,9 @@
         background-repeat: no-repeat;
         height: calc(100vh - 6.8rem);
         z-index: 0;
+        &.error {
+            background-image: url('../img/error.jpg');
+        }
         &__shadow {
             position: absolute;
             width: 100%;

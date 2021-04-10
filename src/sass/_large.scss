@@ -15,6 +15,9 @@
         .hero {
             height: 75vh;
             background-image: url('../img/jungle_big.jpg');
+            &.error {
+                background-image: url('../img/error_big.jpg');
+            }
         }
         .aboutus {
             width: 75%;

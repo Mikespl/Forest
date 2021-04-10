@@ -7,7 +7,8 @@
 }
 
 body,
-button {
+button,
+textarea {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -22,6 +23,10 @@ body {
     width: 100vw;
     min-height: 100vh;
     overflow-x: hidden;
+}
+
+button {
+    cursor: pointer;
 }
 
 .heading {
